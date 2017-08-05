@@ -1,0 +1,20 @@
+{ 
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Belle Équipe",
+        "address": "92 Rue de Charonne, Paris",
+        "description": "A nice place we ate once. Doubleplusgoodfood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3830599,
+          48.8535419
+        ]
+      }
+    }
+  ]
+}

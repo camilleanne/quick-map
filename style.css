@@ -1,0 +1,56 @@
+body {
+  margin:0;
+  padding:0;
+}
+#map {
+  float: left;
+  top:0;
+  bottom:0;
+}
+#sidebar {
+  background-color: #d7f4fa;
+  float: left;
+  overflow: scroll;
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+#content, #attribution {
+  padding: 10px;
+}
+.address {
+  font-style: italic;
+}
+.name {
+  font-weight: 600;
+}
+#attribution {
+  font-style: italic;
+  color: #ddd;
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 200px) {
+  #map {
+    width: 100vw;
+    height: 69vh;
+  }
+  #sidebar {
+    width: 100vw;
+    height: 30vh;
+    padding: 1vh 1vw 0 1vw;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 600px) {
+  #map {
+    width: 73vw;
+    height: 100vh;
+  }
+  #sidebar {
+    width: 25vw;
+    height: 100vh;
+    padding: 0 1vw 0 1vw;
+  }
+}
